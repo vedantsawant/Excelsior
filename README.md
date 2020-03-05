@@ -1,1 +1,3 @@
-# Excelsior
+# SyrusApp
+### Recognition of crime hotspots in a city 
+#### The app tracks criminal activities in every area through an input from the FIRs registered in that area. This data can be analyzed accordingly to determine crime hotspots which can be visually represented through a heatmap of the crime rate in every area. This can help in predicting potential criminal activities in an area and even warn the residents of a criminally active area or users of the app before entering such areas. The app will keep a track of all such criminal activities and help determine the necessary deployment of police enforcement.Therefore this application can be used by police stations to keep records of crime and management of police enforcement accordingly. And also used by other citizens to ensure personal safety.

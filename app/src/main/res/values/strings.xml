@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="records">Records</string>
+    <string name="location">Location</string>
+    <string name="graph">Graph</string>
+    <string name="report">Report</string>
+    <string name="history">History</string>
+    <string name="fir">FIR no.</string>
+    <string name="time">TIME</string>
+    <string name="info">INFORMATION</string>
+    <string name="loc">LOCATION</string>
+    <string name="sub">SUBMIT</string>
+    <string name="date">DATE</string>
+    <string name="selectdate">SELECT DATE</string>
+    <string name="sampledate">MM/DD/YYYY</string>
+    <string name="map">Map</string>
+    <string name="crimetype">CRIME TYPE</string>
+    <string name="crime_prompt">Choose a crime</string>
+    <string-array name="crime_arrays">
+        <item>Murder</item>
+        <item>Hit and Run</item>
+        <item>Theft</item>
+        <item>Traffic Violation</item>
+
+    </string-array>
+    <string name="time_prompt">Choose a time</string>
+    <string-array name="time_arrays">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+        <item>Night</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollIndicators="right"
+        >
+        <TextView
+            android:id="@+id/tv1"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fir"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            ></TextView>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="FIR NUMBER"
+            android:id="@+id/editfirno"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            ></TextView>
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="@string/sampledate"></TextView>
+        <Button
+            android:id="@+id/selectdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/selectdate"></Button>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            ></TextView>
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/edittime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/time_prompt"
+            android:entries="@array/time_arrays"
+            ></androidx.appcompat.widget.AppCompatSpinner>
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crimetype"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            ></TextView>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/crimetype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/crime_prompt"
+        android:entries="@array/crime_arrays"
+        ></androidx.appcompat.widget.AppCompatSpinner>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loc"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            ></TextView>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Location"
+            android:id="@+id/editloc"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
